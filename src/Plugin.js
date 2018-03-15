@@ -115,7 +115,7 @@ export default class Plugin {
           this.libraryObjs[spec.local.name] = true;
         }
       });
-      this.pathsToRemove.push(path);
+      //  this.pathsToRemove.push(path);
     }
   }
 
